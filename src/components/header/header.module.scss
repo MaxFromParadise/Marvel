@@ -1,0 +1,32 @@
+.title {
+	color: #000;
+	font-family: 'Roboto Condensed';
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	span {
+		color: #9f0013;
+	}
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 50px;
+}
+.page-info {
+	color: #000;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-family: 'Roboto Condensed';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	&__active {
+		color: #9f0013;
+	}
+}

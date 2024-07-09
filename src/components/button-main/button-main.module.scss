@@ -1,0 +1,30 @@
+.button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 101px;
+	height: 38px;
+	background: #5c5c5c;
+	clip-path: polygon(13% 0, 100% 0, 100% 71%, 87% 100%, 0 100%, 0 29%);
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			transform: translateY(-4px);
+		}
+	}
+	&:active {
+		transform: translateY(-2px);
+	}
+}
+.red {
+	background: #9f0013;
+}
+.big {
+	width: 170px;
+	clip-path: polygon(9% 0, 100% 0, 100% 71%, 91% 100%, 0 100%, 0 29%);
+}
